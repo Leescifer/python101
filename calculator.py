@@ -48,6 +48,29 @@ def subtraction(answers):
     answers.append({"number": result})
     saveAnswers(answers)
 
+def multiplication(answers):
+    a = float(input("Enter first number: "))
+    b = float(input("Enter first number: "))
+    result = a * b
+
+    print(f"Result: {result}")
+
+    answers.append({"number": result})
+    saveAnswers(answers)
+
+def division(answers):
+    a = float(input("Enter first number: "))
+    b = float(input("Enter first number: "))
+
+    if b == 0: 
+        print("Error: Cannot be divided by zero.")
+        return
+    
+    result = a / b
+    print(f"Result: {result }")
+
+    answers.append({"number": result})
+    saveAnswers(division)
 
 def main():
     answers = loadAnswers()
@@ -56,13 +79,17 @@ def main():
         "1": lambda: viewAnswers(answers),
         "2": lambda: addition(answers),
         "3": lambda: subtraction(answers),
-        "4": exit
+        "4": lambda: multiplication(answers),
+        "5": lambda: division(answers),
+        "6": exit
     }
 
     menu = [
         "View Answers",
         "Addition",
         "Subtraction",
+        "Multuplication",
+        "Division",
         "Exit"
     ]
 
