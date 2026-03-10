@@ -31,3 +31,24 @@ def myName():
 myName()
 print("My name: " + x)    
 
+#This way you only edit one list, not multiple prints.
+menu = [
+    "View Tasks",
+    "Add Task",
+    "Complete Task",
+    "Delete Task",
+    "Exit"
+]
+
+print("Task Manager")
+for i, item in enumerate(menu, 1):
+    print(f"{i}. {item}")
+
+
+text = "algorithm"
+print(text[3:7])
+
+fruits = ["apple", "banana", "cherry"]
+fruits.append("orange")
+
+print(fruits)
