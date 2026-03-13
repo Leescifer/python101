@@ -52,3 +52,7 @@ fruits = ["apple", "banana", "cherry"]
 fruits.append("orange")
 
 print(fruits)
+
+print("banan" in fruits)
+print("banan" not in fruits)
+

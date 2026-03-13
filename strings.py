@@ -37,7 +37,6 @@ print(a[2])
 for x in "Leester":
     print(x)
     
-# String length
 
 
 
