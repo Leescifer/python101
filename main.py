@@ -53,6 +53,7 @@ fruits.append("orange")
 
 print(fruits)
 
+<<<<<<< HEAD
 print(10 // 3)
 
 
@@ -105,4 +106,6 @@ z = int("3")
 print(type(x))
 print(type(y))
 print(type(z))
+print("banan" in fruits)
+print("banan" not in fruits)
 
