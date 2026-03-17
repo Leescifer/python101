@@ -52,3 +52,57 @@ fruits = ["apple", "banana", "cherry"]
 fruits.append("orange")
 
 print(fruits)
+
+print(10 // 3)
+
+
+#Int
+x = 1
+y = 35656222554887711
+z = -3255522
+
+print(type(x))
+print(type(y))
+print(type(z))
+
+#Float
+x = 1.10
+y = 1.0
+z = -35.59
+
+#Complex
+print(type(x))
+print(type(y))
+print(type(z))
+
+x = 3+5j
+y = 5j
+z = -5j
+
+print(type(x))
+print(type(y))
+print(type(z))
+
+#Type conversion, we can't convert complex number
+
+x = 1
+y = 23.2
+
+a = float(x)
+b = int(y)
+c = complex(x)
+
+print(a, b, c)
+print(type(a))
+print(type(b))
+print(type(c))
+
+#Casting
+x = int(1)
+y = int(1.2)
+z = int("3")
+
+print(type(x))
+print(type(y))
+print(type(z))
+
